@@ -244,7 +244,7 @@ runtest() {
 			echo -ne "  测试完成, 本次测速耗时: ${time} 秒"
 		fi
 		echo -ne "\n  当前时间: "
-		echo $(date +%Y-%m-%d" "%H:%M:%S)
+		echo $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
 		echo -e "  ${GREEN}# 三网测速中为避免节点数不均及测试过久，每部分未使用所${PLAIN}"
 		echo -e "  ${GREEN}# 有节点，如果需要使用全部节点，可分别选择三网节点检测${PLAIN}"
 	fi
