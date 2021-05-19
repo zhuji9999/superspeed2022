@@ -285,7 +285,7 @@ runtest() {
 			echo -ne "  测试完成, 本次测速耗时: ${time} 秒"
 		fi
 		echo -ne "\n  当前时间: "
-		echo $(date +%Y-%m-%d" "%H:%M:%S)
+		echo $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
 	fi
 
 	if [[ ${selection} == 4 ]]; then
@@ -329,7 +329,7 @@ runtest() {
 			echo -ne "  测试完成, 本次测速耗时: ${time} 秒"
 		fi
 		echo -ne "\n  当前时间: "
-		echo $(date +%Y-%m-%d" "%H:%M:%S)
+		echo $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
 	fi
 
 	if [[ ${selection} == 5 ]]; then
@@ -398,7 +398,7 @@ runtest() {
 			echo -ne "  测试完成, 本次测速耗时: ${time} 秒"
 		fi
 		echo -ne "\n  当前时间: "
-		echo $(date +%Y-%m-%d" "%H:%M:%S)
+		echo $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
 	fi
 }
 
