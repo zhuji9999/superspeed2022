@@ -120,8 +120,9 @@ preinfo() {
 }
 
 selecttest() {
-	echo -e "  测速类型:    ${GREEN}1.${PLAIN} 三网测速    ${GREEN}2.${PLAIN} 取消测速"    ${GREEN}6.${PLAIN} 详细测速
+	echo -e "  测速类型:    ${GREEN}1.${PLAIN} 三网测速    ${GREEN}2.${PLAIN} 取消测速"
 	echo -ne "               ${GREEN}3.${PLAIN} 电信节点    ${GREEN}4.${PLAIN} 联通节点    ${GREEN}5.${PLAIN} 移动节点"
+	echo -ne "               ${GREEN}6.${PLAIN} 详细三网测速"
 	while :; do echo
 			read -p "  请输入数字选择测速类型: " selection
 			if [[ ! $selection =~ ^[1-5]$ ]]; then
@@ -401,7 +402,7 @@ runtest() {
 		echo $(TZ=UTC-8 date +%Y-%m-%d" "%H:%M:%S)
 	fi
 	
-	if [[ ${selection} == 1 ]]; then
+	if [[ ${selection} == 6 ]]; then
 		echo "——————————————————————————————————————————————————————————"
 		echo "ID    测速服务器信息       上传/Mbps   下载/Mbps   延迟/ms"
 		start=$(date +%s) 
