@@ -148,14 +148,19 @@ runtest() {
 		 speed_test '26352' '江苏南京５Ｇ' '电信'
 		 speed_test '5396' '江苏苏州５Ｇ' '电信'
 		 speed_test '5317' '江苏连云港５Ｇ' '电信'
+                # speed_test '36663' '江苏镇江５Ｇ' '电信'
 		# speed_test '7509' '浙江杭州' '电信'
 		 speed_test '23844' '湖北武汉' '电信'
-		 speed_test '28946' '四川重庆' '电信'
-		 speed_test '51772' '福建福州' '电信'
 		 speed_test '29353' '湖北武汉５Ｇ' '电信'
 		 speed_test '28225' '湖南长沙５Ｇ' '电信'
 		 speed_test '3973' '甘肃兰州' '电信'
 		# speed_test '19076' '重庆' '电信'
+		# speed_test '35722' '天津' '电信'
+		# speed_test '34115' '天津５Ｇ' '电信'
+		# speed_test '41355' '河南郑州５Ｇ' '电信'
+		# speed_test '34988' '辽宁沈阳５Ｇ' '电信'
+		 speed_test '28946' '四川重庆' '电信'
+		 speed_test '51772' '福建福州' '电信'
 		#***
 		# speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -187,7 +192,7 @@ runtest() {
 		# speed_test '26728' '云南昆明' '移动'
 		# speed_test '27019' '内蒙古呼和浩特' '移动'
 		# speed_test '30232' '内蒙呼和浩特５Ｇ' '移动'
-		# speed_test '29105' '陕西移动5G' '移动'
+		  speed_test '29105' '陕西移动5G' '移动'
 		# speed_test '30293' '内蒙古通辽５Ｇ' '移动'
 		# speed_test '25858' '北京' '移动'
 		# speed_test '16375' '吉林长春' '移动'
@@ -216,7 +221,7 @@ runtest() {
 		# speed_test '25883' '江西南昌５Ｇ' '移动'
 		# speed_test '17223' '河北石家庄' '移动'
 		# speed_test '26331' '河南郑州５Ｇ' '移动'
-		 speed_test '6715' '浙江宁波５Ｇ' '移动'
+		 speed_test '6715' '浙江杭州５Ｇ' '移动'
 		# speed_test '4647' '浙江杭州' '移动'
 		# speed_test '16503' '海南海口' '移动'
 		# speed_test '28491' '湖南长沙５Ｇ' '移动'
@@ -229,7 +234,6 @@ runtest() {
 		# speed_test '17584' '重庆' '移动'
 		# speed_test '26380' '陕西西安' '移动'
 		 speed_test '29105' '陕西西安５Ｇ' '移动'
-		 speed_test '26352' '陕西西安５Ｇ' '移动'
 		# speed_test '29083' '青海西宁５Ｇ' '移动'
 		# speed_test '26656' '黑龙江哈尔滨' '移动'
 
@@ -255,7 +259,7 @@ runtest() {
 		echo "ID    测速服务器信息       上传/Mbps   下载/Mbps   延迟/ms"
 		start=$(date +%s) 
 
-		 speed_test '3633' '上海' '电信'
+                 speed_test '3633' '上海' '电信'
 		 speed_test '24012' '内蒙古呼和浩特' '电信'
 		 speed_test '27377' '北京５Ｇ' '电信'
 		 speed_test '29026' '四川成都' '电信'
@@ -278,6 +282,8 @@ runtest() {
 		 speed_test '34115' '天津５Ｇ' '电信'
 		 speed_test '41355' '河南郑州５Ｇ' '电信'
 		 speed_test '34988' '辽宁沈阳５Ｇ' '电信'
+		 speed_test '28946' '四川重庆' '电信'
+		 speed_test '51772' '福建福州' '电信'
 
 		 speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -375,7 +381,7 @@ runtest() {
 		echo "ID    测速服务器信息       上传/Mbps   下载/Mbps   延迟/ms"
 		start=$(date +%s) 
 
-		 speed_test '3633' '上海' '电信'
+                 speed_test '3633' '上海' '电信'
 		 speed_test '24012' '内蒙古呼和浩特' '电信'
 		 speed_test '27377' '北京５Ｇ' '电信'
 		 speed_test '29026' '四川成都' '电信'
@@ -398,6 +404,8 @@ runtest() {
 		 speed_test '34115' '天津５Ｇ' '电信'
 		 speed_test '41355' '河南郑州５Ｇ' '电信'
 		 speed_test '34988' '辽宁沈阳５Ｇ' '电信'
+		 speed_test '28946' '四川重庆' '电信'
+		 speed_test '51772' '福建福州' '电信'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
