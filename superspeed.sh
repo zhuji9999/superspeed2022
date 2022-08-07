@@ -109,8 +109,8 @@ speed_test(){
 
 preinfo() {
 	echo "——————————————————————————————————————————————————————————"
-	echo " SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking"
-	echo " 节点更新: 2020/06/19 | 脚本更新: 2021/12/23"
+	echo " SuperSpeed 全面测速修复版. By zhuji999 & UXH & ernisn & oooldking"
+	echo " 节点更新: 2022/08/07 | 脚本更新: 2021/12/23"
 	echo " Github: https://github.com/uxh/superspeed"
 	echo "——————————————————————————————————————————————————————————"
 }
@@ -293,6 +293,7 @@ runtest() {
 		 speed_test '9484' '吉林长春' '联通'
 		 speed_test '2461' '四川成都' '联通'
 		 speed_test '27154' '天津５Ｇ' '联通'
+                 speed_test '45170' '江苏无锡' '联通'
 		 speed_test '5509' '宁夏银川' '联通'
 		 speed_test '5724' '安徽合肥' '联通'
 		 speed_test '5039' '山东济南' '联通'
@@ -435,6 +436,7 @@ runtest() {
 		 speed_test '9484' '吉林长春' '联通'
 		 speed_test '2461' '四川成都' '联通'
 		 speed_test '27154' '天津５Ｇ' '联通'
+                 speed_test '45170' '江苏无锡' '联通'
 		 speed_test '5509' '宁夏银川' '联通'
 		 speed_test '5724' '安徽合肥' '联通'
 		 speed_test '5039' '山东济南' '联通'
