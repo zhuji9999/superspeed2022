@@ -795,9 +795,9 @@ function StreamingMediaUnlockTest(){
 }
 
 print_intro() {
-	printf ' Superbench.sh -- https://www.idcoffer.com/archives/4764\n' | tee -a $log
+	printf ' Superbench.sh -- https://www.zhuji999.com/13574.html\n' | tee -a $log
 	printf " Mode  : \e${GREEN}%s\e${PLAIN}    Version : \e${GREEN}%s${PLAIN}\n" $mode_name 1.3.7 | tee -a $log
-	printf ' Usage : bash <(wget -qO- https://down.vpsaff.net/linux/speedtest/superbench.sh)\n' | tee -a $log
+	printf ' Usage : bash <(wget -qO- https://raw.githubusercontent.com/zhuji9999/superspeed2022/master/superbench008.sh)\n' | tee -a $log
 }
 
 sharetest() {
