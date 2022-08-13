@@ -270,18 +270,26 @@ print_china_speedtest() {
 print_global_speedtest() {
 	printf "%-18s%-18s%-20s%-12s%-20s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" "Packet Loss" | tee -a $log
     speed_test '1536'  'Hong Kong    CN'
+    speed_test '32155' 'Hong Kong    CN'
     speed_test '33250' 'Macau        CN'
 	speed_test '29106' 'Taiwan       CN'
 	speed_test '40508' 'Singapore    SG'
+	speed_test '7311'  'Singapore    SG'
 #	speed_test '4956'  'Kuala Lumpur MY'
 #	speed_test '38134' 'Fukuoka      JP'
 	speed_test '28910' 'Tokyo        JP'
+	speed_test '21569' 'Tokyo        JP'
 	speed_test '6527'  'Seoul        KR'
-    speed_test '18229' 'Los Angeles  US'
+        speed_test '18229' 'Los Angeles  US'
+	speed_test '21541' 'Los Angeles  US'
+	speed_test '43860' 'Dallas       US'
+	speed_test '40879' 'Montreal     CA'
 #	speed_test '15786' 'San Jose     US'
 	speed_test '41248' 'London       UK'
 	speed_test '10010' 'Frankfurt    DE'
 	speed_test '21268' 'France       FR'
+	speed_test '24215' 'Paris        FR'
+	speed_test '28922' 'Amsterdam    NL'
 }
 
 print_speedtest_fast() {
