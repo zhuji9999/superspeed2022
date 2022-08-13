@@ -161,6 +161,7 @@ runtest() {
 		# speed_test '34988' '辽宁沈阳５Ｇ' '电信'
 		 speed_test '28946' '四川重庆' '电信'
 		 speed_test '51772' '福建福州' '电信'
+		 speed_test '5530' '四川重庆' 'CCN'
 		#***
 		# speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -186,13 +187,14 @@ runtest() {
 		# speed_test '4884' '福建福州' '联通'
 		# speed_test '31985' '重庆' '联通'
 		# speed_test '4863' '陕西西安' '联通'
+		 speed_test '36646' '河南郑州5G' '联通'
 		#***
 		# speed_test '30154' '上海' '移动'
 		# speed_test '25637' '上海５Ｇ' '移动'
 		# speed_test '26728' '云南昆明' '移动'
 		# speed_test '27019' '内蒙古呼和浩特' '移动'
 		# speed_test '30232' '内蒙呼和浩特５Ｇ' '移动'
-		  speed_test '29105' '陕西移动5G' '移动'
+		 speed_test '29105' '陕西移动5G' '移动'
 		# speed_test '30293' '内蒙古通辽５Ｇ' '移动'
 		# speed_test '25858' '北京' '移动'
 		# speed_test '16375' '吉林长春' '移动'
@@ -200,7 +202,7 @@ runtest() {
 		# speed_test '17184' '天津５Ｇ' '移动'
 		# speed_test '26940' '宁夏银川' '移动'
 		# speed_test '31815' '宁夏银川' '移动'
-		# speed_test '26404' '安徽合肥５Ｇ' '移动'
+		  speed_test '26404' '安徽合肥５Ｇ' '移动'
 		# speed_test '27151' '山东临沂５Ｇ' '移动'
 		# speed_test '25881' '山东济南５Ｇ' '移动'
 		# speed_test '27100' '山东青岛５Ｇ' '移动'
@@ -228,7 +230,7 @@ runtest() {
 		 speed_test '16145' '甘肃兰州' '移动'
 		 speed_test '16171' '福建福州' '移动'
 		# speed_test '18444' '西藏拉萨' '移动'
-		# speed_test '16398' '贵州贵阳' '移动'
+		 speed_test '16398' '贵州贵阳' '移动'
 		# speed_test '25728' '辽宁大连' '移动'
 		# speed_test '16167' '辽宁沈阳' '移动'
 		# speed_test '17584' '重庆' '移动'
@@ -236,6 +238,8 @@ runtest() {
 		 speed_test '29105' '陕西西安５Ｇ' '移动'
 		# speed_test '29083' '青海西宁５Ｇ' '移动'
 		# speed_test '26656' '黑龙江哈尔滨' '移动'
+		 speed_test '41910' '河南郑州５Ｇ' '移动'
+		 speed_test '44176' '河南郑州５Ｇ' '移动'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
@@ -284,6 +288,7 @@ runtest() {
 		 speed_test '34988' '辽宁沈阳５Ｇ' '电信'
 		 speed_test '28946' '四川重庆' '电信'
 		 speed_test '51772' '福建福州' '电信'
+		 speed_test '5530' '四川重庆' 'CCN'
 
 		 speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -310,6 +315,7 @@ runtest() {
 		 speed_test '4884' '福建福州' '联通'
 		 speed_test '31985' '重庆' '联通'
 		 speed_test '4863' '陕西西安' '联通'
+		 speed_test '36646' '河南郑州5G' '联通'
 
 		 speed_test '30154' '上海' '移动'
 		 speed_test '25637' '上海５Ｇ' '移动'
@@ -362,6 +368,8 @@ runtest() {
 		 speed_test '29105' '陕西西安５Ｇ' '移动'
 		 speed_test '29083' '青海西宁５Ｇ' '移动'
 		 speed_test '26656' '黑龙江哈尔滨' '移动'
+		 speed_test '41910' '河南郑州５Ｇ' '移动'
+		 speed_test '44176' '河南郑州５Ｇ' '移动'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
@@ -408,6 +416,7 @@ runtest() {
 		 speed_test '34988' '辽宁沈阳５Ｇ' '电信'
 		 speed_test '28946' '四川重庆' '电信'
 		 speed_test '51772' '福建福州' '电信'
+		 speed_test '5530' '四川重庆' 'CCN'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
@@ -454,6 +463,7 @@ runtest() {
 		 speed_test '4884' '福建福州' '联通'
 		 speed_test '31985' '重庆' '联通'
 		 speed_test '4863' '陕西西安' '联通'
+		 speed_test '36646' '河南郑州5G' '联通'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
@@ -526,6 +536,8 @@ runtest() {
 		 speed_test '29105' '陕西西安５Ｇ' '移动'
 		 speed_test '29083' '青海西宁５Ｇ' '移动'
 		 speed_test '26656' '黑龙江哈尔滨' '移动'
+		 speed_test '41910' '河南郑州５Ｇ' '移动'
+		 speed_test '44176' '河南郑州５Ｇ' '移动'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
