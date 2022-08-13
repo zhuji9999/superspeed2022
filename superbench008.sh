@@ -146,13 +146,13 @@ benchinit() {
 	elif [[ $ARCH != *aarch64* && $ARCH != *arm* ]]; then
 		if [ ! -e './geekbench/geekbench5' ]; then
 			echo " Installing Geekbench 5..."
-			curl -s https://down.vpsaff.net/linux/geekbench/Geekbench-5.4.4-Linux.tar.gz  | tar xz --strip-components=1 -C ./geekbench &>/dev/null
+			curl -s https://down.zhuji999.com/Geekbench-5.4.4-Linux.tar.gz  | tar xz --strip-components=1 -C ./geekbench &>/dev/null
 		fi
 		chmod +x ./geekbench/geekbench5
 	else
 		if [ ! -e './geekbench/geekbench5' ]; then
 			echo " Installing Geekbench 5..."
-			curl -s https://down.vpsaff.net/linux/geekbench/Geekbench-5.4.4-LinuxARMPreview.tar.gz  | tar xz --strip-components=1 -C ./geekbench &>/dev/null
+			curl -s https://down.zhuji999.com/Geekbench-5.4.4-LinuxARMPreview.tar.gz  | tar xz --strip-components=1 -C ./geekbench &>/dev/null
 		fi
 		chmod +x ./geekbench/geekbench5
 	fi
@@ -168,7 +168,7 @@ download_geekbench4(){
 	fi
 	if [[ ! -d ./geekbench/geekbench4 ]]; then
 		echo -n -e " Installing Geekbench 4..."
-		curl -s https://down.vpsaff.net/linux/geekbench/Geekbench-4.4.4-Linux.tar.gz | tar xz --strip-components=1 -C ./geekbench &>/dev/null
+		curl -s https://down.zhuji999.com/Geekbench-4.4.4-Linux.tar.gz | tar xz --strip-components=1 -C ./geekbench &>/dev/null
 	fi
 	chmod +x ./geekbench/geekbench4
 }
