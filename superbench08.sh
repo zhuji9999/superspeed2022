@@ -236,7 +236,6 @@ speed_test(){
 
 print_china_speedtest() {
 	printf "%-18s%-18s%-20s%-12s%-20s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" "Packet Loss" | tee -a $log
-    speed_test '' 'Speedtest.net'
 	speed_test '3633'  '上海       电信'
 	speed_test '17145' '安徽合肥５Ｇ电信'
 	speed_test '26352' '江苏南京５Ｇ电信'
@@ -288,7 +287,6 @@ print_global_speedtest() {
 
 print_speedtest_fast() {
 	printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" | tee -a $log
-    speed_test '' 'Speedtest.net'
 	speed_test '3633'  '上海       电信'
 	speed_test '17145' '安徽合肥５Ｇ电信'
 	speed_test '26352' '江苏南京５Ｇ电信'
