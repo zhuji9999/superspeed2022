@@ -127,8 +127,8 @@ benchinit() {
 	
 	if [ ! -e './besttrace4/besttrace' ]; then
 		echo " Installing Best Trace..."
-		#wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
-		#if [[ $? -ne '0' ]]; then
+		wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
+		if [[ $? -ne '0' ]]; then
 			wget --no-check-certificate -O besttrace4linux.zip https://down.vpsaff.net/linux/besttrace4linux.zip > /dev/null 2>&1
 		#fi
 		unzip besttrace4linux.zip -d besttrace4 > /dev/null 2>&1
@@ -236,7 +236,6 @@ speed_test(){
 
 print_china_speedtest() {
 	printf "%-18s%-18s%-20s%-12s%-20s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" "Packet Loss" | tee -a $log
-	speed_test ''      'Speedtest.net'
 	speed_test '3633'  '上海       电信'
 	speed_test '17145' '安徽合肥５Ｇ电信'
 	speed_test '26352' '江苏南京５Ｇ电信'
