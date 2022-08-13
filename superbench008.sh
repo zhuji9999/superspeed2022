@@ -13,9 +13,9 @@ BrowserUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 about() {
 	echo ""
 	echo " ========================================================= "
-	echo " \                 Superbench.sh  Script                 / "
+	echo " \         Superbench.sh  Script by zhuji999.com         / "
 	echo " \       Basic system info, I/O test and speedtest       / "
-	echo " \                   v1.3.7 (2022-08-22)                 / "
+	echo " \                   v1.3.7 (2022-08-13)                 / "
 	echo " ========================================================= "
 	echo ""
 	echo ""
@@ -127,9 +127,9 @@ benchinit() {
 	
 	if [ ! -e './besttrace4/besttrace' ]; then
 		echo " Installing Best Trace..."
-		#wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
-		#if [[ $? -ne '0' ]]; then
-			wget --no-check-certificate -O besttrace4linux.zip https://down.vpsaff.net/linux/besttrace4linux.zip > /dev/null 2>&1
+		wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
+		if [[ $? -ne '0' ]]; then
+			wget --no-check-certificate -O besttrace4linux.zip https://down.zhuji999.com/besttrace4linux.zip > /dev/null 2>&1
 		#fi
 		unzip besttrace4linux.zip -d besttrace4 > /dev/null 2>&1
 	fi
