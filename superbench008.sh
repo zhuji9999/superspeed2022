@@ -127,8 +127,8 @@ benchinit() {
 	
 	if [ ! -e './besttrace4/besttrace' ]; then
 		echo " Installing Best Trace..."
-		wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
-		if [[ $? -ne '0' ]]; then
+		#wget --no-check-certificate -T 10 -qO besttrace4linux.zip https://cdn.ipip.net/17mon/besttrace4linux.zip > /dev/null 2>&1
+		#if [[ $? -ne '0' ]]; then
 			wget --no-check-certificate -O besttrace4linux.zip https://down.zhuji999.com/besttrace4linux.zip > /dev/null 2>&1
 		#fi
 		unzip besttrace4linux.zip -d besttrace4 > /dev/null 2>&1
