@@ -155,7 +155,7 @@ runtest() {
 		 speed_test '28225' '湖南长沙５Ｇ' '电信'
 		 speed_test '3973' '甘肃兰州' '电信'
 		# speed_test '19076' '重庆' '电信'
-		# speed_test '35722' '天津' '电信'
+		 speed_test '35722' '天津' '电信'
 		# speed_test '34115' '天津５Ｇ' '电信'
 		# speed_test '41355' '河南郑州５Ｇ' '电信'
 		# speed_test '34988' '辽宁沈阳５Ｇ' '电信'
@@ -188,6 +188,7 @@ runtest() {
 		# speed_test '31985' '重庆' '联通'
 		# speed_test '4863' '陕西西安' '联通'
 		 speed_test '36646' '河南郑州5G' '联通'
+		 speed_test '37235' '辽宁沈阳' '联通'
 		#***
 		# speed_test '30154' '上海' '移动'
 		# speed_test '25637' '上海５Ｇ' '移动'
@@ -316,6 +317,7 @@ runtest() {
 		 speed_test '31985' '重庆' '联通'
 		 speed_test '4863' '陕西西安' '联通'
 		 speed_test '36646' '河南郑州5G' '联通'
+		 speed_test '37235' '辽宁沈阳' '联通'
 
 		 speed_test '30154' '上海' '移动'
 		 speed_test '25637' '上海５Ｇ' '移动'
@@ -464,6 +466,7 @@ runtest() {
 		 speed_test '31985' '重庆' '联通'
 		 speed_test '4863' '陕西西安' '联通'
 		 speed_test '36646' '河南郑州5G' '联通'
+		 speed_test '37235' '辽宁沈阳' '联通'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
