@@ -82,12 +82,13 @@ speed() {
     speed_test '3973'  'Lanzhou  5G  CT'
     speed_test '35722' 'TianJin  5G  CT'
     speed_test '28946' 'ChongQin 5G  CT'
-    speed_test '51772' 'FuZhu    5G  CT'
-    speed_test '5530'  'ChongQin    CCN'
+    speed_test '51772' 'FuZhu        CT'
+    speed_test '29071' 'ChengDou     CT'
     speed_test '24447' 'Shanghai 5G  CU'
     speed_test '45170' 'WuXi         CU'
     speed_test '4870'  'ChangSha     CU'
     speed_test '36646' 'ZhenZhou 5G  CU'
+    speed_test '43752' 'BeiJing      CU'
     speed_test '37235' 'ShenYang     CU'
     speed_test '29105' 'ShanXi       CM'
     speed_test '26404' 'HeFei    5G  CM'
@@ -99,6 +100,11 @@ speed() {
     speed_test '29105' 'XiAn     5G  CM'
     speed_test '41910' 'ZhenZhou 5G  CM'
     speed_test '44176' 'ZhenZhou 5G  CM'
+    speed_test '25858' 'BeiJing      CM'
+    speed_test '26940' 'YinChuan     CM'
+    speed_test '4575'  'ChengDou     CM'
+    speed_test '35527' 'ChengDou     GD'
+    speed_test '5530'  'ChongQin    CCN'
 }
 
 io_test() {
